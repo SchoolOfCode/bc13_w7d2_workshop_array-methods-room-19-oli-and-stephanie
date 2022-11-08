@@ -1,3 +1,6 @@
+// use startsWith() 
+/* The startsWith() method determines whether a string begins with the characters of a specified string, returning true or false as appropriate. */
+
 let animals = [
     "baboon",
     "kangaroo",
@@ -8,4 +11,8 @@ let animals = [
     "basalisk",
   ];
   
-let bListAnimals = // Your 'filter' code here.
+let bListAnimals = animals.filter(bAnimal);
+  function bAnimal(animal) {
+   if (animal )
+
+}
